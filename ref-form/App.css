@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(58, 57, 57);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  margin: 0 auto;
+  /* height: 300px; */
+  width: 600px;
+  border: 1px solid cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.box input,.box select{
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+.box input,.box select{
+  background-color: transparent;
+  border: 1px solid cyan;
+  color: cyan;
+  outline: none;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 21px;
+}
+.box option{
+  color: black;
+  background-color: cyan;
+}
+.sub{
+  background-color: cyan !important;
+  color: black !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 12px !important;
+  height: 50px !important;
+  width: 120px !important;
+  cursor: pointer !important;
+}
